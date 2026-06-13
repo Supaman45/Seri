@@ -1,116 +1,101 @@
 # Revive Yoga Co. — Modern Redesign
 
-A trendy, modern redesign direction for **www.reviveyoga.co**, with an
-interactive mockup in Figma and a full section-by-section spec.
+A trendy, modern redesign of **www.reviveyoga.co**, built in your real brand
+colors, with an interactive mockup in Figma and a full section-by-section spec.
 
 **Figma mockup:** https://www.figma.com/design/3UVmKg8UJT1lxeQ9lIn2sQ/Revive-Yoga-Co--Modern-Redesign-Mockup
 
-> Status: **complete.** All 11 sections below are built in the Figma file as a
-> single full-length desktop homepage frame (1440 × ~5,355px).
+> Status: **complete.** All 11 sections are built as a single full-length
+> desktop homepage frame (1440 × ~5,350px), styled in Revive's gold / white /
+> champagne / charcoal palette. Image slots use labelled placeholders — see
+> "Photography" below for the recommended photo for each slot.
 
 ---
 
 ## Design direction
 
-The current site reads like a classic boutique studio. To feel current in
-2026, the redesign leans into the **"warm wellness editorial"** look that
-modern studios (and brands like Alo, Open, Sky Ting) are using:
+The current site has a beautiful, minimal gold-on-white brand. The redesign
+keeps that exact palette and elegance, but adds the modern structure a
+boutique studio site needs to convert: a clear hero, a class grid, simple
+pricing, social proof, and a repeated booking CTA.
 
-- **Earthy, calming palette** instead of cool/clinical tones.
-- **High-contrast serif display type** paired with a clean grotesque — an
-  editorial, magazine-like feel.
-- **Generous whitespace**, full-bleed imagery, and soft rounded cards.
-- **Pill-shaped buttons**, a sticky minimal nav, and one obvious booking CTA
-  repeated down the page.
-- **Social proof + Instagram feed** to build trust and community.
+- **Your real brand palette** — muted gold, champagne, white, charcoal.
+- **High-contrast serif display (Playfair) + clean sans (Inter)**, with
+  generous letter-spacing to echo your wordmark's refined feel.
+- **Lots of whitespace**, soft rounded image cards, and pill buttons.
+- **One repeated booking CTA**, anchored by a free-first-class hook.
+- **Testimonials + Instagram feed** to build community and trust.
 
-### Color palette
+### Color palette (from your brand)
 
-| Token        | Hex       | Use                                  |
-|--------------|-----------|--------------------------------------|
-| Cream        | `#F4EFE6` | Primary background                   |
-| Sand         | `#E9DDC9` | Alternating section background       |
-| Forest green | `#2C3D31` | Primary brand / headlines / dark UI  |
-| Sage         | `#8DA284` | Secondary accent                     |
-| Clay         | `#C26F4E` | CTA / accent (terracotta)            |
-| Ink          | `#20251F` | Body text                            |
-| Muted        | `#5C6358` | Secondary text                       |
+| Token             | Hex       | Use                                       |
+|-------------------|-----------|-------------------------------------------|
+| Muted gold / ochre| `#C29B64` | Accent, CTAs, wordmark, eyebrows          |
+| Deep gold         | `#A8824B` | Gold text on light backgrounds            |
+| Champagne / tan   | `#E2D3BE` | Marquee band, soft accents                |
+| Soft champagne    | `#EFE6D6` | Alternating section backgrounds           |
+| White             | `#FFFFFF` | Primary background                        |
+| Charcoal / black  | `#1A1A1A` | Headlines, dark bands, footer             |
+| Warm grey         | `#7A7164` | Body / secondary text                     |
 
 ### Typography
 
-- **Display:** Playfair Display (Black/Bold) — large editorial headlines.
-- **Body & UI:** Inter (Regular → Semi Bold).
-- Pairing a high-contrast serif with a neutral sans is the core of the
-  modern look. (Fraunces or DM Serif Display are great alternatives.)
+- **Display:** Playfair Display (Black/Bold) — editorial headlines.
+- **Body & UI:** Inter (Regular → Semi Bold), with letter-spacing on labels.
 
 ---
 
-## Page structure (section by section)
+## Page structure (11 sections)
 
-1. **Announcement bar** — slim forest-green strip:
-   *"NOW OPEN: Reformer Pilates Studio · First class on us — claim your intro offer."*
-
-2. **Sticky nav** — `REVIVE` wordmark, links (Classes, Studio, Schedule,
-   Pricing, About), Sign in + a clay **Book a Class** pill.
-
-3. **Hero** — split layout. Editorial headline **"Restore. Strengthen.
-   Renew."**, supporting line, two CTAs (Book your first class / View
-   schedule), and a stat row (`12+` class styles · `7 days` a week · `$60`
-   unlimited/month) over a full-bleed studio photo.
-
-4. **Marquee strip** — scrolling class styles in serif on sand:
-   *Bikram · Vinyasa · Yin · Barre + Yoga · HIIT · Reformer Pilates · Happy Hour Flow.*
-
-5. **Studio / About split** — photo + "A sanctuary for body and mind,"
-   the studio's whole-person philosophy, three checkmark proof points, and a
-   *Tour the studio* button.
-
-6. **Class grid — "Find your flow"** — six cards, each with image, a tag
-   pill, name, one-line description, and a `level · duration` footer:
-   - **Bikram Yoga** — HEATED · All levels · 90 min
-   - **Vinyasa Flow** — FLOW · All levels · 60 min
-   - **Yin Yoga** — RESTORE · Beginner · 60 min
-   - **Barre + Yoga** — STRENGTH · All levels · 50 min
-   - **HIIT** — SWEAT · Intermediate · 45 min
-   - **Reformer Pilates** — REFORMER · All levels · 50 min
-
-7. **Pricing — "Memberships made simple"** — three cards, middle highlighted:
-   - **Intro Offer** — Free first class (first-timers, any class, no commitment)
-   - **Unlimited Monthly** — `$60`/mo (unlimited classes, all styles, cancel anytime) ← *Most popular*
-   - **Reformer 3-Pack** — `$75` (3 reformer classes, small-group, valid 60 days)
-
-8. **Testimonial band** — forest background, large serif pull-quote + member
-   attribution for social proof.
-
-9. **Instagram gallery — "From the mat"** — four image tiles + a
-   *Follow @reviveyoga* button.
-
-10. **Closing CTA band** — *"Your first class is on us."* with Book / Schedule
-    buttons on a warm sand background.
-
-11. **Footer** — dark green; brand + address/hours, Explore + Classes link
-    columns, newsletter signup, copyright, and social links.
+1. **Announcement bar** (charcoal + gold) — new Reformer studio / free first class
+2. **Sticky nav** — `RE·VIVE` wordmark, links, gold "Book a Class" pill
+3. **Hero** — "Restore. Strengthen. Renew." + stat row + dual CTAs
+4. **Marquee** — class styles in serif on champagne
+5. **Studio / About split** — philosophy + three proof points
+6. **Class grid "Find your flow"** — Bikram, Vinyasa, Yin, Barre + Yoga, HIIT, Reformer
+7. **Pricing "Memberships made simple"** — Free intro / `$60` unlimited (featured) / `$75` reformer 3-pack
+8. **Testimonial band** (charcoal + gold) — member pull-quote
+9. **Instagram gallery "From the mat"** — four tiles + follow button
+10. **Closing CTA** — "Your first class is on us."
+11. **Footer** — address/hours, link columns, newsletter signup, socials
 
 ---
 
-## Why these changes are "more trendy / modern"
+## Photography
 
-- **Warm earth tones** signal calm and wellness far better than cool blues/greys.
-- **Editorial serif + whitespace** make a small studio look premium and intentional.
-- **One repeated booking CTA** (and a free-first-class hook) improves conversion.
-- **Class cards with tags + duration** let visitors self-select quickly — the
-  pattern every modern studio booking site now uses.
-- **Instagram feed + testimonials** turn the site into community proof, not
-  just a brochure.
+Every image slot is a labelled placeholder (e.g. `img:Reformer Pilates — hero
+photo`). Swap in warm, natural-light photography to match your brand. Note:
+the redesign session could not auto-insert photos because the sandbox network
+blocks external image hosts — so add them in Figma directly (drag a downloaded
+image onto a placeholder frame and Figma fills it), or via Figma's Unsplash
+plugin.
+
+Recommended free photos (Pexels, free to use):
+
+| Slot                         | Suggested photo |
+|------------------------------|-----------------|
+| Hero — Reformer Pilates      | https://www.pexels.com/photo/woman-practicing-pilates-on-reformer-in-studio-31509827/ |
+| About — sunlit studio        | https://www.pexels.com/photo/the-interior-of-a-pilates-studio-11036673/ |
+| Bikram — hot yoga pose       | https://www.pexels.com/photo/woman-doing-yoga-on-mat-in-light-room-6454060/ |
+| Vinyasa — flow               | https://www.pexels.com/photo/a-woman-in-brown-tank-top-stretching-on-a-yoga-mat-6246385/ |
+| Yin — restorative / Savasana | https://www.pexels.com/photo/slim-woman-lying-in-shavasana-pose-on-yoga-mat-4498188/ |
+| Barre + Yoga — strength      | https://www.pexels.com/photo/a-woman-doing-handstand-on-a-yoga-mat-4534695/ |
+| HIIT — strength              | https://www.pexels.com/photo/a-woman-doing-push-ups-6739040/ |
+| Reformer Pilates             | https://www.pexels.com/photo/woman-doing-pilates-with-a-use-of-a-machine-18136885/ |
+| Gallery — studio             | https://www.pexels.com/photo/pilates-reformer-machine-in-a-studio-25599821/ |
+| Gallery — reformer           | https://www.pexels.com/photo/woman-exercising-on-pilates-reformer-in-studio-31509828/ |
+| Gallery — community          | https://www.pexels.com/photo/women-at-pilates-25596681/ |
+| Gallery — sunrise flow       | https://www.pexels.com/photo/woman-sitting-on-a-yoga-mat-8436706/ |
+
+> If `mcp.figma.com` (and `images.pexels.com`) are added to the environment's
+> network egress allowlist, the photos can be auto-placed into each slot
+> instead.
 
 ---
 
 ## Next steps
 
-The mockup uses styled gradient placeholders where photography goes (each is
-labelled, e.g. "Hero — heated studio flow"). To take it further:
-
-- Swap placeholders for real studio photography (warm, natural light).
+- Drop real photography into the placeholder frames (see above).
 - Add a mobile breakpoint (single-column stack, hamburger nav).
-- Once approved, this is straightforward to build as a real site (e.g.
-  Next.js + Tailwind, or a Squarespace/Webflow theme) using the same tokens.
+- Once approved, this is straightforward to build as a real site (Next.js +
+  Tailwind, or a Squarespace/Webflow theme) using the same tokens.
