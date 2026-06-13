@@ -5,9 +5,8 @@ interactive mockup in Figma and a full section-by-section spec.
 
 **Figma mockup:** https://www.figma.com/design/3UVmKg8UJT1lxeQ9lIn2sQ/Revive-Yoga-Co--Modern-Redesign-Mockup
 
-> Status: the hero, navigation, announcement bar, and class marquee are
-> built in the Figma file. The lower sections below are fully specced and
-> ready to drop in (build paused on the Figma Starter-plan MCP rate limit).
+> Status: **complete.** All 11 sections below are built in the Figma file as a
+> single full-length desktop homepage frame (1440 × ~5,355px).
 
 ---
 
@@ -106,10 +105,12 @@ modern studios (and brands like Alo, Open, Sky Ting) are using:
 
 ---
 
-## Finishing the mockup
+## Next steps
 
-The lower sections (5–11) are ready to render into the Figma file in a single
-pass. They were paused only because the Figma MCP integration hit the
-**Starter-plan tool-call limit**. To complete it, either upgrade the Figma
-plan or wait for the quota to reset, then the remaining sections can be added
-in one step.
+The mockup uses styled gradient placeholders where photography goes (each is
+labelled, e.g. "Hero — heated studio flow"). To take it further:
+
+- Swap placeholders for real studio photography (warm, natural light).
+- Add a mobile breakpoint (single-column stack, hamburger nav).
+- Once approved, this is straightforward to build as a real site (e.g.
+  Next.js + Tailwind, or a Squarespace/Webflow theme) using the same tokens.
